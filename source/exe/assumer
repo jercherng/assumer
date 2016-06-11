@@ -51,7 +51,7 @@ EOF
 # If a system's CA store is botched, you can enable the bundled cert. store
 # https://github.com/aws/aws-sdk-core-ruby/issues/166#issuecomment-111603660
 if parsed_options[:enable_aws_bundled_ca_cert]
-  warn '>>> AWS bunled CA certificate enabled <<< ' if DEBUG_FLAG
+  warn '>>> AWS bundled CA certificate enabled <<< ' if DEBUG_FLAG
   Aws.use_bundled_cert!
 end
 
