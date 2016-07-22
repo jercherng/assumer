@@ -8,7 +8,7 @@ Assumer will assume-role on a target account and generate temporary API keys for
 
 ## Installation ##
 
-Assumer requires a Ruby version >= 2.1
+Assumer requires a Ruby version >= 2.1 and that your AWS account is set up with Multi-Factor Authentication (MFA).
 
 Install with `gem install assumer`
 
